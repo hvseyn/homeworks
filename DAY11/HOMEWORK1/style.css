@@ -1,0 +1,72 @@
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.card {
+    width: 315px;
+    height: 200px;
+    min-width: 300px;
+    background-color: blueviolet;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    color: white;
+    padding-left: 15px;
+}
+
+#imgchip {
+    width: 50px;
+    padding-top: 35px;
+    margin-left: -5px;
+}
+
+.cardNumber {
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+.cardName {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-family: monospace;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.valid {
+    font-size: 9px;
+}
+.valid, .date {
+    font-family: 'Tahoma', sans-serif;
+}
+
+#cardvisa {
+    width: 100px;
+    height: 35px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+.card:nth-child(2) {
+    background-color: green;
+}
+
+.card:nth-child(3) {
+    background-color: blue;
+}
+
+.card:nth-child(4) {
+    background-color: black;
+}
