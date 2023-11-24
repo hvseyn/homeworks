@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1140px;
+    width: 70%;
+    margin: 40px auto;
+}
+
+.box {
+    border: 1px solid #000;
+    width: 400px;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+#box-image {
+    width: 400px;
+    height: 325px;
+    object-fit: contain;
+}
+
+.name{
+    margin-bottom: 20px;
+}
+
+.price{
+    color: brown;
+    margin-bottom: 20px;
+}
+
+.about {
+    background-color: #ebebeb;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.buy,
+.add-card {
+    color: #853ae0;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 10px 10px 0px;
+}
+
+.buy:hover,
+.add-card:hover {
+    text-decoration: underline;
+}
+
+.back{
+    display: block;
+    color: #000;
+    font-size: 14px;
+    font-style: italic;
+    padding: 10px 10px 10px 0px;
+}
