@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(231, 227, 227);
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    margin-top: 40px;
+}
+
+.h1 {
+    color: orange;
+}
+
+.h2 {
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.workers .img {
+    width: 100%;
+    height: 420px;
+    background-position: top center;
+    position: relative;
+    margin-top: 40px;
+}
+
+.img {
+    background-size: cover;
+}
+
+.text {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.row {
+    position: relative;
+
+}
+
+.row .contact {
+    position: absolute;
+    top: 250px;
+}
+
+.contact {
+    opacity: 0;
+    transition: .3s all;
+}
+
+.workers:hover ul {
+    opacity: 1;
+}
+
+.text:hover{
+    background-color: orange;
+}
+
+.contact li {
+    background-color: gray;
+    margin: 3px;
+}
