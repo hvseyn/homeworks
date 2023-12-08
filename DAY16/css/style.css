@@ -1,0 +1,114 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+}
+
+.navbar {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar span {
+    color: blue;
+}
+
+.nav li {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+
+#intro {
+    height: 100vh;
+    background: url(https://preview.colorlib.com/theme/express/images/hero_1.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: .6;
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.h1,
+.p {
+    color: #fff;
+}
+
+.p {
+    margin-top: 10px;
+}
+
+.content,
+.container,
+.row {
+    height: 100%;
+}
+
+.content {
+    position: relative;
+}
+
+.row {
+    text-align: center;
+}
+
+.buttons {
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn {
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: #fff;
+}
+
+.text {
+    color: #fff;
+    margin-left: 5px;
+}
