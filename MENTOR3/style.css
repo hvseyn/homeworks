@@ -1,0 +1,53 @@
+body {
+    background-color: aqua;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    width: 100%;
+    /* max-width: 1320px; */
+    /* display: flex; */
+}
+
+.navbar,
+.dropdownmenu>ul {
+    display: flex;
+}
+
+.navbar {
+    background-color: white;
+    width: 100%;
+    height: 75px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.parent {
+    position: relative;
+
+}
+
+.child {
+    position: absolute;
+    opacity: 0;
+    /* visibility: hidden; */
+    transition: .2s;
+    display: block;
+    background-color: white;
+
+}
+
+.parent:hover .child {
+    /* visibility: visible; */
+    opacity: 1;
+}
+
+.dropdownmenu>ul>li {
+    padding: 0 40px;
+}
+
+.main {
+    text-align: center;
+    padding-top: 300px;
+}
