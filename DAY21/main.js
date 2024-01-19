@@ -165,9 +165,164 @@
 //!---TASK26---//
 
 
-let year = prompt ("Il daxil edin!");
-if (year % 4 == 0) {
-console.log("Uzun ildir");
-} else {
-    console.log("Uzun il deyil");
-}
+// let year = prompt ("Il daxil edin!");
+// if (year % 4 == 0) {
+// console.log("Uzun ildir");
+// } else {
+//     console.log("Uzun il deyil");
+// }
+
+
+//!---TASK27---//
+// let id = prompt('enter product id:');
+// if (id === '1') {
+//   alert ('Available 10 pcs.');
+// }
+// else if (id === '2') {
+//   alert ('Available 256 pcs.');
+//  }
+// else if (id === '3') {
+//   alert ('Available 53 pcs.');
+//  }
+//   else if (id === '4') {
+//   alert ('There are 3 available.');
+//  }
+// else {
+//   alert ('Out of stock');
+// }
+// switch (id) {
+//     case "1":
+//         alert('Available 10 pcs.');
+//         break;
+//     case "2":
+//         alert('Available 256 pcs.');
+//         break;
+//     case "3":
+//         alert('Available 53 pcs.');
+//         break;
+//     default:
+//         break;
+// }
+
+
+//!---TASK28---//
+// let gender = prompt("Cinsini daxil et, F or M")
+// switch (gender) {
+//     case "M":
+//         alert("MALE");
+//         break;
+//     case "F":
+//         alert("FEMALE");
+//         break;
+//     default:
+//         break;
+// }
+
+
+//!---TASK29---//
+// let date = prompt("Necenci ayda oldugunuzu daxil edin.");
+// switch (date) {
+//     case "1":
+//         alert("YANVAR")
+//         break;
+//     case "2":
+//         alert("FEVRAL")
+//         break;
+//     case "3":
+//         alert("MART")
+//         break;
+//     case "4":
+//         alert("APREL")
+//         break;
+//     case "5":
+//         alert("MAY")
+//         break;
+//     case "6":
+//         alert("IYUN")
+//         break;
+//     case "7":
+//         alert("IYUL")
+//         break;
+//     case "8":
+//         alert("AVQUST")
+//         break;
+//     case "9":
+//         alert("SENTYABR")
+//         break;
+//     case "10":
+//         alert("OKTYABR")
+//         break;
+//     case "11":
+//         alert("NOYABR")
+//         break;
+//     case "12":
+//         alert("DEKABR")
+//         break;
+//     default:
+//         break;
+// }
+
+
+//!---TASK30---//
+// let date = prompt("Oldugunuz tarixi 2009.12.19 formatında daxil edin.");
+// let pointindex = date.indexOf(".");
+// let year = date.slice(0, pointindex);
+// let month = date.slice(pointindex + 1, date.lastIndexOf("."));
+// switch (month) {
+//     case "1":
+//     case "01":
+//         month = ("YANVAR")
+//         break;
+//     case "2":
+//     case "02":
+//         month = ("FEVRAL")
+//         break;
+//     case "3":
+//     case "03":
+//         month = ("MART")
+//         break;
+//     case "4":
+//     case "04":
+//         alert("APREL")
+//         break;
+//     case "5":
+//     case "05":
+//         alert("MAY")
+//         break;
+//     case "6":
+//     case "06":
+//         month = ("IYUN")
+//         break;
+//     case "7":
+//     case "07":
+//         month = ("IYUL")
+//         break;
+//     case "8":
+//     case "08":
+//         month = ("AVQUST")
+//         break;
+//     case "9":
+//     case "09":
+//         month = ("SENTYABR")
+//         break;
+//     case "10":
+//         month = ("OKTYABR")
+//         break;
+//     case "11":
+//         month = ("NOYABR")
+//         break;
+//     case "12":
+//         month = ("DEKABR")
+//         break;
+//     default:
+//         break;
+// }
+// let day = date.slice(date.lastIndexOf(".") + 1);
+
+// if (month > 12) {
+//     console.log("Tarix duzgun qeyd edilmeyib");
+// } else if (day > 31) {
+//     console.log("Tarix duzgun qeyd edilmeyib");
+// } else {
+//     console.log(day + " " + month + " " + year + "-cu il");
+// }
