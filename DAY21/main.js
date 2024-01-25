@@ -283,11 +283,11 @@
 //         break;
 //     case "4":
 //     case "04":
-//         alert("APREL")
+//         month = ("APREL")
 //         break;
 //     case "5":
 //     case "05":
-//         alert("MAY")
+//         month = ("MAY")
 //         break;
 //     case "6":
 //     case "06":
