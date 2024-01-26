@@ -48,9 +48,15 @@
 // console.log(sum);
 
 
-//!----TASK6----EDİLMİYİB----//
+//!----TASK6----//
 // let i = +prompt();
-// let j = 2;
+// while (i >= 2) {
+//     if (i % 2 === 1 && i % 3 !== 0 && i % 4 !== 0 && i % 5 !== 0) {
+//         console.log(i);
+//     }
+//     i--
+// }
+
 
 
 //!----TASK7----//
@@ -96,4 +102,16 @@
 //     console.log("Mətndə rəqəm tapıldı.");
 // } else {
 //     console.log("Mətndə rəqəm tapılmadı.");
+// }
+
+
+
+
+
+// let i = 1;
+// let j = 10;
+// while (i <= 10) {
+//     // console.log(i + " * 10 " + "= " + i * j);
+//     console.log(`${i}` * `${j}` = $`{}`);
+//     i++;
 // }
