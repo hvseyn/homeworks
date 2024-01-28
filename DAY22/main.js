@@ -112,6 +112,29 @@
 // let j = 10;
 // while (i <= 10) {
 //     // console.log(i + " * 10 " + "= " + i * j);
-//     console.log(`${i}` * `${j}` = $`{}`);
+//     console.log(`${i}` * ${j} = ${i * j}`);
 //     i++;
 // }
+
+
+
+// let n = 45;
+// let j = n;
+// let count = 0;
+// for (n > 0; n % j === 0; j--) {
+//     count += 1;
+// }
+// for (count === 2) {
+//     console.log(n);}
+// n--
+
+
+// for (n > 0; j > 0; j--) {
+//     if (n % j === 0) {
+//         count += 1;
+//     }
+// }
+// if (count === 2) {
+//     console.log(n);
+// }
+// n--
