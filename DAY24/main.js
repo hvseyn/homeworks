@@ -149,7 +149,7 @@
 //     }
 //     return words.join(" ");
 //   }
-  
+
 //   let originalSentence = "javascriptdə capitalizeword funksiyası necə yaradılır?";
 //   let capitalizedSentence = capitalizeWord(originalSentence);
 //   console.log(capitalizedSentence);
@@ -166,13 +166,15 @@
 // console.log(isEven(3));
 
 //! ----TASK 10----//
-function isValidNumber(phoneNumber) {
-    // Telefon nömrəsi +7 ilə başlayıb 11 rəqəmdən ibarət olmalıdır
-    return /^(\+7)\d{10}$/.test(phoneNumber);
-}
+// function isValidNumber(phoneNumber) {
+//     return /^(\+7)\d{10}$/.test(phoneNumber);
+// }
 
-// Funksiyani test etmek üçün
-console.log(isValidNumber("+71234567890")); // true
-console.log(isValidNumber("+71234567"));    // false (11 rəqəm yoxdur)
-console.log(isValidNumber("71234567890"));  // false (+7 ilə başlamır)
-console.log(isValidNumber("+81234567890")); // false (+7 ilə başlamır)
+// console.log(isValidNumber("+71234567890"));
+
+//! ----TASK 11----//
+// function numCounter(text) {
+//     let letters = text.match(/[a-zA-Z]/g);
+//     return letters ? letters.length : 0;
+// }
+// console.log(numCounter("abc123dbnaa-=odkd,133---11t55"));
