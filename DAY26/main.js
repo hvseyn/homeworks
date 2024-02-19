@@ -34,7 +34,7 @@
 //     if (userInput === " ") {
 //         if (queue.length > 0) {
 //             let nextCustomer = queue.shift();
-//             console.log("novbeden cixan musteri " + nextCustomer);
+//             console.log(" novbeden cixan musteri " + nextCustomer);
 //             break;
 //         } else {
 //             console.log("novbe bosdur");
