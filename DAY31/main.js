@@ -28,7 +28,7 @@
 
 
 // !----TASK05----//
-// const listItems = document.querySelectorAll('ul li');
+// const listItems = document.querySelectorAll("ul li");
 
 // listItems.forEach(item => {
 //     item.classList.add("item");
