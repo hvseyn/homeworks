@@ -1,18 +1,79 @@
-function calculateTip(tipPercentage) {
-    var billAmount = parseFloat(document.getElementById('billAmount').value);
-    var numPeople = parseInt(document.getElementById('numPeople').value);
-    
-    var tipAmount = (billAmount * (tipPercentage / 100)) / numPeople;
-    var totalAmount = (billAmount / numPeople) + tipAmount;
-    
-    document.getElementById('tipAmount').innerText = '$' + tipAmount.toFixed(2);
-    document.getElementById('totalAmount').innerText = '$' + totalAmount.toFixed(2);
+// const startBtn = document.getElementById("start");
+// const pauseBtn = document.getElementById("pause");
+// const resetBtn = document.getElementById("reset");
+
+// const timer = document.getElementById("timer");
+
+// let minutes = 25;
+// let seconds = 0;
+// let timerId;
+
+// startBtn.addEventListener("click", () => {
+//     clearInterval(timerId);
+//     timerId = setInterval(() => {
+//         if (seconds === 0) {
+//             seconds = 59;
+//             if (minutes !== 0) {
+//                 minutes--;
+//             }
+//         } else {
+//             seconds--;
+//         }
+//         timer.innerHTML = `${minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
+//     }, 1000);
+// });
+
+// pauseBtn.addEventListener("click", () => {
+//     clearInterval(timerId);
+// });
+
+// resetBtn.addEventListener("click", () => {
+//     clearInterval(timerId);
+//     minutes = 25;
+//     seconds = 0;
+//     timer.innerHTML = `${minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
+// });
+
+const startBtn = document.getElementById('start');
+const pauseBtn = document.getElementById('pause');
+const resetBtn = document.getElementById('reset');
+
+const timer = document.getElementById('timer');
+
+startBtn.addEventListener('click', startTimer);
+pauseBtn.addEventListener('click', pauseTimer);
+resetBtn.addEventListener('click', resetTimer);
+
+let minutes = 25;
+let seconds = 0;
+let timerId;
+
+function updateTimer() {
+    timer.innerHTML = `${minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
 }
 
-function resetCalculator() {
-    document.getElementById('billAmount').value = '0.00';
-    document.getElementById('customTip').value = '';
-    document.getElementById('numPeople').value = '1';
-    document.getElementById('tipAmount').innerText = '$0.00';
-    document.getElementById('totalAmount').innerText = '$0.00';
+function startTimer() {
+    clearInterval(timerId);
+    timerId = setInterval(() => {
+        if (seconds === 0) {
+            seconds = 59;
+            if (minutes !== 0) {
+                minutes--;
+            }
+        } else {
+            seconds--;
+        }
+        updateTimer();
+    }, 1000);
+}
+
+function pauseTimer() {
+    clearInterval(timerId);
+}
+
+function resetTimer() {
+    clearInterval(timerId);
+    minutes = 25;
+    seconds = 0;
+    updateTimer();
 }
