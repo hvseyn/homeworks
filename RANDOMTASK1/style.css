@@ -1,0 +1,35 @@
+.board {
+    width: 800px;
+    height: 600px;
+    background-color: #654321; /* Ahşap rengi */
+    background-image: url('wood_texture.jpg'); /* Ahşap dokusu görüntüsü */
+    background-size: cover;
+    background-repeat: repeat;
+    margin: 20px auto;
+    position: relative;
+}
+
+.dice-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dice {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 0 10px;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-duration: 0.5s;
+}
+
+@keyframes roll {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
