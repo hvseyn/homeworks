@@ -14,30 +14,3 @@ ol {
 a {
     text-decoration: none;
 }
-
-
-/* <div class="dropdownmenu">
-<ul class="parent">
-    <li>Home</li>
-    <li>About</li>
-    <ul class="parent">
-        <li class="dropdown">Our team</li>
-        <li class="dropdown">Our history</li>
-    </ul>
-    <li>News</li>
-    <ul class="parent">
-        <li class="dropdown">Amazing Article</li>
-        <li class="dropdown">Cool Article</li>
-        <li class="dropdown">Interesting Artice</li>
-    </ul>
-    <li>Products</li>
-    <ul class="parent">
-        <li class="dropdown">Cheap Product</li>
-        <li class="dropdown">Cool Product</li>
-        <li class="dropdown">Innovativ Product</li>
-        <li class="dropdown">Mind blowing Product</li>
-        <li class="dropdown">Useful Product</li>
-    </ul>
-    <li>Contact</li>
-</ul>
-</div> */
